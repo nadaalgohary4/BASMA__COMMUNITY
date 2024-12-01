@@ -1,0 +1,76 @@
+body{
+    text-transform: capitalize;
+}
+.Main-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #171717;
+    position: relative;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener{
+    width: 500px;
+    gap: 20px; 
+    position: relative;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+.contener p{
+    color: white;
+    width: 100vh;
+    text-align: center;
+}
+.contener .prgMain{
+    font-size: 40px;
+}
+.contener .prg2{
+    font-size: 20px;
+    margin-top: -45px;
+}
+.contener button{
+    width: 105px;
+    height: 185px;
+    background-image: url(/img/img-logo-btn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 38%;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .contener p {
+        font-size: 25px;
+        width: 90%;
+    }
+    .contener button {
+        width: 80px;
+        height: 140px;
+    }
+}
+@media (max-width: 480px) {
+    .contener p {
+        font-size: 18px;
+    }
+    .contener button {
+        width: 60px;
+        height: 100px;
+    }
+}
+@media (min-width: 1200px) {
+    .contener p {
+        font-size: 40px;
+        width: 70%;
+    }
+    .contener button {
+        width: 120px;
+        height: 200px;
+    }
+}
+
+
+
